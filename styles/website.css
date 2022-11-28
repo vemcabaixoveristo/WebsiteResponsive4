@@ -1,0 +1,16 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+    background-color: violet;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
