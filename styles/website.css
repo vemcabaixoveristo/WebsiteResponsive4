@@ -1,16 +1,47 @@
-/* font-family: 'Montserrat', sans-serif; */
+:root {
+    --primary-color: #202020;
+    --btn-font: 'Montserrat', sans-serif;
 
-body {
-    background-color: violet;
-    font-family: 'Roboto', sans-serif;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: var(--primary-color);
+}
 
 h1 {
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 6px;
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.hero {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 240px 0;
+}
+
+.btn-primary {
+    color: var(--primary-color);
+    font-family: var(--btn-font);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 14px 30px;
+    text-decoration: none;
 }
