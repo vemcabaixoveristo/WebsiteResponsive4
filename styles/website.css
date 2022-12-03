@@ -1,13 +1,13 @@
 :root {
     --primary-color: #202020;
+    --secondary-color: #F65282;
     --btn-font: 'Montserrat', sans-serif;
-
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: var(--primary-color);
+    background-color: #1b1b1b;
 }
 
 h1 {
@@ -28,10 +28,40 @@ h3 {
     font-weight: 100;
 }
 
+.logo {
+    width: 150px;
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 26px 0px;
+}
+
+.navbar-brand {
+    color: white !important;
+    margin-left: 0px;
+}
+.nav-link, .nav-link:hover {
+    color: white;
+    font-weight: 100;
+}
+.active {
+    color: white !important;
+    font-weight: 500;
+}
+
+
+/* homepage hero */
 .hero {
     text-align: center;
-    background-color: var(--primary-color);
-    padding: 240px 0;
+    background-image: url("../img/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    height: auto;
+    margin-top: -100px;
 }
 
 .btn-primary {
@@ -45,3 +75,129 @@ h3 {
     padding: 14px 30px;
     text-decoration: none;
 }
+
+/* gallery */
+.home-gallery {
+    text-align: center;
+    width: 85%;
+    margin: 120px auto 80px auto;
+    padding: 0 100px;
+}
+
+.section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fotos {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* footer */
+.footer {
+    width: 100%;
+    margin-top: 80px;
+    padding: 30px 40px;
+    background-color: var(--primary-color);
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.social {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fa-brands {
+    font-size: 20px;
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+
+.rights {
+    text-align: right;
+    font-size: 16px;
+}
+
+/* about me */
+
+.hero-about {
+   display: flex;
+   background-color: #1b1b1b;
+}
+
+.background {
+    background-image: url("../img/bg2.png");
+    background-size: 100%;
+    height: 780px;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+
+.about-me {
+  width: 50%;
+  padding: 20px 40px;
+}
+
+.about-me h1 {
+ font-size: 68px;
+ margin-top: 20px;
+}
+
+.about-me h2 {
+    font-size: 18px;
+    color: var( --secondary-color);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-description {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.about-social {
+      text-align: left;
+    margin-bottom: 80px;
+}
+
+.camera {
+    width: 420px;
+    display: block;
+    margin-bottom: 70px;
+}
+
+/* gallery */
+
+.hero-gallery, .hero-contact {
+    text-align: center;
+    margin-top: 30px;
+}   
+
+
+/* contact */
+.section-contact {
+    margin-top: 140px;
+}
+
+
+.detail {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.contact-h2 { 
+     color: var(--secondary-color);
+     font-size: 14px;
+}
+
+.detail i {
+    margin-right: 10px;
+    
+}
+ 
