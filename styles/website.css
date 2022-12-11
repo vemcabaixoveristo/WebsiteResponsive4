@@ -76,10 +76,10 @@ h3 {
     background-position-x: center;
     vertical-align: center;
     width: 100%;
-    padding: 260px 0px;
+    padding: 800px 0px;
 }
  .header {
-
+    margin-top: -500px;
  }
 
 .btn-primary {
